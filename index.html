@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+<body>
+
+<div ng-app="" style="text-align: center; margin-top: 20%">
+
+<p>Name : <input type="text" ng-model="name" placeholder="Enter name here"></p>
+<h1>Hello <span style="color:{{myCol}}">{{name}}</span>! What's up?</h1>
+<label>Change the color of your name: </label>
+<input ng-app="" ng-init="myCol=''" ng-model="myCol" value="{{myCol}}" placeholder="e.g. red">
+
+</div>
+
+</body>
+</html>
